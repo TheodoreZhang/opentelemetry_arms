@@ -1,0 +1,9 @@
+spring:
+  main:
+    web-application-type: none
+
+otel:
+  ## arms 应用实时监控服务ARMS -> 接入中心 -> OpenTelemetry
+  endpoint: #{endpoint}
+  token: #{token}
+  service-name: netty-demo
